@@ -1,0 +1,9 @@
+export { default as Deal } from "./Deal/Deal";
+export { default as Features } from "./Features/Features";
+export { default as Footer } from "./Footer/Footer";
+export { default as Home } from "./Home/Home";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Newsletter } from "./Newsletter/Newsletter";
+export { default as Partners } from "./Partners/Partners";
+export { default as Services } from "./Services/Services";
+export { default as Testimonials } from "./Testimonials/Testimonials";
