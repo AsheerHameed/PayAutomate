@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+Pro:wght@600&display=swap");
-
-:root{
-    --bg-color:#FAFAFA;
-    --p-font:'Inter', sans-serif;
-    --head-font:'Source Sans Pro', sans-serif;
-    --primary-color:#21A099;
-    --secondary-color: #FAFAFA;
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+Pro:wght@700&display=swap');
+:root {
+  --bg-color: #fafafa;
+  --p-font: "Inter", sans-serif;
+  --head-font: "Source Sans Pro", sans-serif;
+  --primary-color: #21a099;
+  --secondary-color: #fafafa;
+  --text-color: #828282;
 }
