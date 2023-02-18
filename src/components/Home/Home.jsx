@@ -13,10 +13,7 @@ import {
 const Home = () => {
   return (
     <div className="home__container section__padding">
-      <picture>
-        {/* <source media="(min-width: 420px)" srcset={mobileside} style={{marginTop:"2rem"}} />
-        <source media="(min-width: 960px)" srcset={tabletside} /> */}
-      </picture>
+    
       <div className="home_left_side">
         <div className="home_left_side__container">
           <div className="home_left_side__p">
@@ -24,8 +21,8 @@ const Home = () => {
           </div>
           <div className="home_left_side__head">
             <h1>
-              The Next Generation Payment{" "}
-              <span style={{ color: "var(--primary-color" }}>Method</span>
+              The Next Generation Payment  {" "}
+              <span style={{ color: "var(--primary-color",border:"1px solid #fff" }}>Method</span>
             </h1>
             <p>
               Yet preference connection unpleasant yet melancholy but end

@@ -1,0 +1,12 @@
+.services_feature {
+  display: flex;
+  gap:2rem;
+}
+.services_feature-p {
+  font-family: var(--p-font);
+  font-weight: 500;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  color: #2c3847;
+}

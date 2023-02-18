@@ -16,6 +16,11 @@ html{
   font-size: 62.5%;  
 }
 
+.flex__center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .section__padding {
   padding: 4rem 6rem;

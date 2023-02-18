@@ -1,0 +1,4 @@
+.partners_images_gallery{
+    display: flex;
+    flex-wrap: wrap;
+}

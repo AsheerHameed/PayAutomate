@@ -2,7 +2,6 @@
   background-image: url("../../assets/side.png");
   background-position: right center;
   background-size: contain;
-  height: 100vh;
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
@@ -63,14 +62,14 @@
   height: 70px;
   border: 1px solid #21a099;
   border-radius: 5px;
-  font-family: "Inter";
+  font-family: var(--p-font);
   font-style: normal;
   background: var(--secondary-color);
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #21a099;
+  color: var(--primary-color);
   cursor: pointer;
 }
 
@@ -84,12 +83,72 @@
   flex-direction: column;
   gap: 2rem;
 }
-.photo{
-   box-shadow: 0px 2px 4px rgba(23, 39, 111, 0.3);
+.photo {
+  box-shadow: 0px 2px 4px rgba(23, 39, 111, 0.3);
 }
 .photo img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   z-index: 2;
+}
+@media screen and (max-width: 1050px) {
+  .home_left_side__head h1 {
+    font-size: 5.5rem;
+    line-height: 6.2rem;
+  }
+  .home__container {
+    background-image: url("../../assets/mobileside.png");
+    flex-direction: row;
+    padding: 4rem;
+  }
+  .home_left_side__cta {
+    padding: 3rem 0;
+  }
+
+  .home_left_side__cta__get-started {
+    width: 170px;
+    font-size: 1.6rem;
+  }
+  .home_left_side__cta__watch-video {
+    width: 170px;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 790px) {
+  .home__container {
+    flex-direction: column;
+    padding: 1rem 5rem;
+  }
+}
+@media screen and (max-width: 481px) {
+  .home__container {
+    background-image: url("../../assets/mobileside.png");
+    background-size: cover;
+    gap: 40px;
+    flex-direction: column;
+    padding: 2rem 3rem;
+  }
+  .home_left_side__head h1 {
+    font-size: 4.5rem;
+    line-height: 6.2rem;
+  }
+  .home_left_side__head p {
+    width: auto;
+    font-size: 1.4rem;
+  }
+  .home_left_side__cta {
+    display: flex;
+    gap: 10px;
+  }
+  .home_left_side__cta__get-started {
+    width: 130px;
+    height: 60px;
+    font-size: 1.4rem;
+  }
+  .home_left_side__cta__watch-video {
+    width: 130px;
+    height: 60px;
+    font-size: 1.4rem;
+  }
 }
