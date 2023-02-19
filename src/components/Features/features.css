@@ -57,6 +57,7 @@
 @media screen and (max-width: 481px) {
   .features__container {
     gap: 1px;
+    padding: 4rem 2rem;
   }
   .features_left_side {
     padding: 1rem 2rem;

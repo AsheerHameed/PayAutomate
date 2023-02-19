@@ -1,9 +1,6 @@
 import React from "react";
 import "./home.css";
 import {
-  side,
-  tabletside,
-  mobileside,
   card4,
   card3,
   card2,
@@ -12,8 +9,8 @@ import {
 } from "./imports";
 const Home = () => {
   return (
-    <div className="home__container section__padding">
-    
+    <div className="home__container section__padding ">
+  
       <div className="home_left_side">
         <div className="home_left_side__container">
           <div className="home_left_side__p">

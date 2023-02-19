@@ -16,15 +16,15 @@ import {
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+       <Navbar /> 
       <Home />
       <Partners />
       <Features />
       <Services />
-      {/*<Deal />
-      <Testimonials />
+      <Deal />
+      {/* <Testimonials /> */}
       <Newsletter />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

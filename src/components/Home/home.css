@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
-  z-index: -1;
+  z-index: -1; 
 }
 
 .home_left_side {
