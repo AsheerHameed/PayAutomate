@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/PayAutomate/static/css/main.bbce31d1.css",
+    "main.js": "/PayAutomate/static/js/main.94d90201.js",
+    "static/media/DealImage.png": "/PayAutomate/static/media/DealImage.0c112ecebaaefd2a7f7b.png",
+    "static/media/servicesPeople.png": "/PayAutomate/static/media/servicesPeople.4795cfa226f1c99b809e.png",
+    "static/media/featureCards.png": "/PayAutomate/static/media/featureCards.bf90d77ee970871f4395.png",
+    "static/media/card4.png": "/PayAutomate/static/media/card4.2c90c6419f2efbdb8056.png",
+    "static/media/logo5.png": "/PayAutomate/static/media/logo5.b7cbea2a96205ed06d29.png",
+    "static/media/card2.png": "/PayAutomate/static/media/card2.90dcdd52b7f63c51b69d.png",
+    "static/media/watchVideo.png": "/PayAutomate/static/media/watchVideo.cc641a1a5e0f42c6f8ac.png",
+    "static/media/logo1.png": "/PayAutomate/static/media/logo1.88df769c343506fc5a0a.png",
+    "static/media/logo2.png": "/PayAutomate/static/media/logo2.28edc2a55841ee4ff498.png",
+    "static/media/logo3.png": "/PayAutomate/static/media/logo3.63af5f97e499a0092349.png",
+    "static/media/logo4.png": "/PayAutomate/static/media/logo4.243b7ce4899448848921.png",
+    "static/media/logo.png": "/PayAutomate/static/media/logo.c0144b0fa2b9670ae7ec.png",
+    "static/media/featuresArrow.png": "/PayAutomate/static/media/featuresArrow.b9c1d2a4edd6d85b0cc6.png",
+    "static/media/card1.png": "/PayAutomate/static/media/card1.e974107005b189bc7724.png",
+    "static/media/side.png": "/PayAutomate/static/media/side.09759caa797d1cecbb31.png",
+    "index.html": "/PayAutomate/index.html",
+    "main.bbce31d1.css.map": "/PayAutomate/static/css/main.bbce31d1.css.map",
+    "main.94d90201.js.map": "/PayAutomate/static/js/main.94d90201.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbce31d1.css",
+    "static/js/main.94d90201.js"
+  ]
+}
