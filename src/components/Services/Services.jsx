@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className="services__container section__padding">
       <div className="services_left_side">
-          <img className="services_people"  src={People} alt="people" />
+        <img className="services_people" src={People} alt="people" />
         <div className="services__watch-video">
           <img src={watch} alt="watch" />
         </div>

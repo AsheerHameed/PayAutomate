@@ -22,28 +22,29 @@
   line-height: 3.2rem;
   color: var(--text-color);
 }
-.constant__container{
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+.head{
+    text-align: center;
+    padding: 4rem 2rem;
 }
+
 @media screen and (max-width: 1050px) {
-.constant__container{
+.head{
         padding: 4rem 0;
     }
-    .constant__heading h2 {
+    .head__heading h2 {
         font-size: 3rem;
         line-height: 4.2rem;
     }
-    .constant__p p {
+    .head__p p {
         font-size: 1.4rem;
         line-height: 2rem;
     }
 }
 @media screen and (max-width: 481px) {
-    .constant__container{
+    .head{
         padding: 2rem 0;
     }
-    .constant__heading h2 {
+    .head__heading h2 {
         font-size: 2.4rem;
         line-height: 3.2rem;
     }

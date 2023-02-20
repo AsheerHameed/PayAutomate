@@ -77,9 +77,9 @@
     flex-direction: column;
     gap: 0rem;
   }
-   .services__container {
+  .services__container {
     padding: 0 4rem;
-   }
+  }
 }
 
 @media screen and (max-width: 380px) {

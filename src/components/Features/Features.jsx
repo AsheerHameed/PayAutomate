@@ -6,7 +6,7 @@ import featuresArrow from "../../assets/featuresArrow.png";
 import ConstantComponent from "../../constants/ConstantComponent";
 const Features = () => {
   return (
-    <div className="features__container section__padding">
+    <div className="features__container section__padding" id="features">
       <div className="features_left_side">
         <div>
           <ConstantComponent
@@ -16,9 +16,7 @@ const Features = () => {
           />
         </div>
         <div className="features_left_side_footer">
-          <p>
-            Learn more about monitoring
-          </p>
+          <p>Learn more about monitoring</p>
           <img src={featuresArrow} alt="arrow" />
         </div>
       </div>

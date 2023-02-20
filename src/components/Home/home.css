@@ -1,13 +1,13 @@
-.home__container {
-  background-image: url("../../assets/side.png");
-  background-position: right center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-between;
-  z-index: -1; 
+.side_image {
+  position: absolute;
+  z-index: -1;
+  margin-top: -7rem;
+  margin-left: 22rem;
 }
-
+.home_content {
+  display: flex;
+  z-index: 1;
+}
 .home_left_side {
   display: flex;
   flex: 1.3;
@@ -57,6 +57,11 @@
   border: none;
   outline: transparent;
 }
+.home_left_side__cta__get-started:hover {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+}
 .home_left_side__cta__watch-video {
   width: 220px;
   height: 70px;
@@ -72,7 +77,11 @@
   color: var(--primary-color);
   cursor: pointer;
 }
-
+.home_left_side__cta__watch-video:hover {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  background-color: var(--primary-color);
+}
 .home_right_side {
   display: flex;
   gap: 2rem;
@@ -92,15 +101,29 @@
   object-fit: cover;
   z-index: 2;
 }
+
+@media screen and (max-width: 1800px) {
+  .side_image {
+    margin-top: -7rem;
+    margin-left: 26.7rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .side_image {
+    position: absolute;
+    z-index: -1;
+    margin-top: -7rem;
+    margin-left: 22rem;
+  }
+}
 @media screen and (max-width: 1050px) {
+  .side_image {
+    margin-top: -15rem;
+    margin-left: 6rem;
+  }
   .home_left_side__head h1 {
     font-size: 5.5rem;
     line-height: 6.2rem;
-  }
-  .home__container {
-    background-image: url("../../assets/mobileside.png");
-    flex-direction: row;
-    padding: 4rem;
   }
   .home_left_side__cta {
     padding: 3rem 0;
@@ -115,19 +138,24 @@
     font-size: 1.6rem;
   }
 }
-@media screen and (max-width: 790px) {
-  .home__container {
+
+@media screen and (max-width: 850px) {
+  .side_image {
+    margin-top: -8rem;
+    margin-left: 8.9rem;
+    width: 530px;
+  }
+  .home_content {
+    padding: 2rem;
     flex-direction: column;
-    padding: 1rem 5rem;
   }
 }
 @media screen and (max-width: 481px) {
-  .home__container {
-    background-image: url("../../assets/mobileside.png");
-    background-size: cover;
-    gap: 40px;
-    flex-direction: column;
-    padding: 2rem 3rem;
+  .side_image {
+    margin-top: -8rem;
+    margin-left: 6.5rem;
+    width: 27.5rem;
+    z-index: -1;
   }
   .home_left_side__head h1 {
     font-size: 4.5rem;
@@ -150,5 +178,13 @@
     width: 130px;
     height: 60px;
     font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .side_image {
+    margin-top: -7rem;
+    margin-left: 4.7rem;
+    width: 20.5rem;
   }
 }

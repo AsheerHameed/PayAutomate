@@ -11,18 +11,18 @@ import {
   Testimonials,
   Newsletter,
   Footer,
-} from './components/index'
+} from "./components/index";
 
 const App = () => {
   return (
     <div>
-       <Navbar /> 
+      <Navbar />
       <Home />
       <Partners />
       <Features />
       <Services />
       <Deal />
-      {/* <Testimonials /> */}
+      <Testimonials/>
       <Newsletter />
       <Footer />
     </div>

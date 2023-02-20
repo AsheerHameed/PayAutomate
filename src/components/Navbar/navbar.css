@@ -1,132 +1,141 @@
 .app__navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; 
+  z-index: 1;
 }
 
 .app__navbar-logo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .app__navbar-logo img {
-    width: 150px;
+  width: 150px;
 }
 
 .app__navbar-links {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    font-family: var(--p-font);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-family: var(--p-font);
+  margin-left:4rem;
 }
 
 .app__navbar-links li {
-    margin: 0 1rem;
-    cursor: pointer;
+  margin: 0 2rem;
+  cursor: pointer;
+  font-family: var(--p-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color:var(--secondary-color);
+}
+.app__navbar-links li:first-child{
+  color: #343434;
 }
 
-.app__navbar-links li:hover {
-    color: var(--color-grey);
-}
-
-.app__navbar-login {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-family: var(--p-font);
-}
-
-.app__navbar-login a {
-    margin: 0 1rem;
-    text-decoration: none;
-    transition: .5s ease;
-}
-
-.app__navbar-login a:hover {
-    border-bottom: 1px solid var(--color-golden);
-}
-
-.app__navbar-login div {
-    width: 1px;
-    height: 30px;
-    background: var(--color-grey);
+.app__navbar-signUp button {
+  background: #fafafa;
+  border-radius: 5px;
+  width: 135px;
+  height: 44px;
+  font-family: var(--p-font) ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: var(--primary-color);
+  outline: transparent;
+  border: 1px solid var(--primary-color);
+  margin-right: 11rem;
+  cursor: pointer;
 }
 
 .app__navbar-smallscreen {
-    display: none;
+  display: none;
 }
 
 .app__navbar-smallscreen_overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: var(--color-black);
-    transition: .5s ease;
-
-    flex-direction: column;
-    z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--primary-color);
+  transition: 0.5s ease;
+  flex-direction: column;
+  z-index: 5;
 }
 
 .app__navbar-smallscreen_overlay .overlay__close {
-    font-size: 27px;
-    color: var(--color-golden);
-    cursor: pointer;
-
-    position: absolute;
-    top: 20px;
-    right: 20px;
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .app__navbar-smallscreen_links {
-    list-style: none;
+  list-style: none;
 }
 
 .app__navbar-smallscreen_links li {
-    margin: 2rem;
-    cursor: pointer;
-    color: var(--color-golden);
-    font-size: 4rem;
-    text-align: center;
-    font-family: var(--p-font);
+  margin: 2rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+  font-size: 2rem;
+  text-align: center;
+  font-family: var(--p-font);
 }
 
 .app__navbar-smallscreen_links li:hover {
-    color: var(--color-white);
+  color: var(--primary-color);
 }
 
-@media screen and (min-width: 2000px) {
-    .app__navbar-logo img {
-        width: 210px;
-    }
+@media screen and (min-width: 1400px) {
+  .app__navbar-logo img {
+    width: 220px;
+  }
+  .app__navbar-links li:nth-child(2){
+  color: #000;
+}
 }
 
-@media screen and (max-width: 1150px) {
-    .app__navbar-links {
-        display: none;
-    }
+@media screen and (max-width: 950px) {
+  .app__navbar-links {
+    display: none;
+  }
 
-    .app__navbar-smallscreen {
-        display: flex;
-    }
+  .app__navbar-smallscreen {
+    display: flex;
+  }
+  .app__navbar-signUp button {
+    margin-left: 30rem;
+  }
+  
 }
 
 @media screen and (max-width: 650px) {
-    .app__navbar {
-        padding: 1rem;
-    }
+  .app__navbar {
+    padding: 1rem;
+  }
+ .app__navbar-signUp button {
+   display: none;
+  }
+  .app__navbar-login {
+    display: none;
+  }
 
-    .app__navbar-login {
-        display: none;
-    }
-
-    .app__navbar-logo img {
-        width: 110px;
-    }
+  .app__navbar-logo img {
+    width: 110px;
+  }
 }

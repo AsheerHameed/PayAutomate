@@ -1,6 +1,6 @@
-import React from 'react'
-import './partners.css'
-import {logo1, logo2, logo3, logo4, logo5} from './imports'
+import React from "react";
+import "./partners.css";
+import { logo1, logo2, logo3, logo4, logo5 } from "./imports";
 const Partners = () => {
   return (
     <div className="partners_container section__padding">
@@ -23,6 +23,6 @@ const Partners = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Partners
+export default Partners;

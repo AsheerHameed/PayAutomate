@@ -1,0 +1,135 @@
+.testimonials_container {
+  display: flex;
+  padding: 5rem;
+  position: relative;
+  background: #e0efed;
+  margin: 2rem;
+  border-radius: 10px;
+  gap: 4rem;
+}
+
+.testimonials-p p {
+  font-family: var(--p-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #828282;
+  padding: 2rem 0;
+}
+.testimonials-reviewer p {
+  font-family: var(--p-font);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 1rem 0;
+  color: #313131;
+}
+.testimonials-founder p {
+  font-family: var(--p-font);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #969696;
+}
+.testimonials_content {
+  position: relative;
+  width: 380px;
+  height: 306px;
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  padding: 4rem;
+  border-radius: 8px;
+}
+
+.head {
+  padding: 10rem 2rem;
+}
+
+.head__subheading p {
+  font-family: var(--p-font);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  padding-bottom: 1.5rem;
+}
+.head__heading h2 {
+  font-family: var(--p-font);
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  color: #313131;
+  padding-bottom: 3rem;
+}
+.head__p p {
+  font-family: var(--p-font);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 1050px) {
+  .head {
+    padding: 4rem 0;
+    text-align: left;
+    padding: 0 6rem;
+  }
+  .head__heading h2 {
+    font-size: 3.8rem;
+    line-height: 4.2rem;
+  }
+  .head__p p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (max-width: 481px) {
+  .head {
+    padding: 3rem 4rem;
+    text-align: left;
+  }
+  .head__heading h2 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .testimonials_container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 950px) {
+  .testimonials_container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .testimonials_content {
+    width: 100%;
+  }
+  .testimonials_content p {
+    font-size: 1.2rem;
+    line-height: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .testimonials_container {
+    padding: 1.5rem;
+  }
+  .testimonials_content {
+    width: 250px;
+  }
+  .testimonials_content p {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }
+}
