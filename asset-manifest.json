@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PayAutomate/static/css/main.bbce31d1.css",
-    "main.js": "/PayAutomate/static/js/main.94d90201.js",
+    "main.css": "/PayAutomate/static/css/main.20d0537e.css",
+    "main.js": "/PayAutomate/static/js/main.e6e364e3.js",
     "static/media/DealImage.png": "/PayAutomate/static/media/DealImage.0c112ecebaaefd2a7f7b.png",
     "static/media/servicesPeople.png": "/PayAutomate/static/media/servicesPeople.4795cfa226f1c99b809e.png",
     "static/media/featureCards.png": "/PayAutomate/static/media/featureCards.bf90d77ee970871f4395.png",
@@ -18,11 +18,11 @@
     "static/media/card1.png": "/PayAutomate/static/media/card1.e974107005b189bc7724.png",
     "static/media/side.png": "/PayAutomate/static/media/side.09759caa797d1cecbb31.png",
     "index.html": "/PayAutomate/index.html",
-    "main.bbce31d1.css.map": "/PayAutomate/static/css/main.bbce31d1.css.map",
-    "main.94d90201.js.map": "/PayAutomate/static/js/main.94d90201.js.map"
+    "main.20d0537e.css.map": "/PayAutomate/static/css/main.20d0537e.css.map",
+    "main.e6e364e3.js.map": "/PayAutomate/static/js/main.e6e364e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbce31d1.css",
-    "static/js/main.94d90201.js"
+    "static/css/main.20d0537e.css",
+    "static/js/main.e6e364e3.js"
   ]
 }
