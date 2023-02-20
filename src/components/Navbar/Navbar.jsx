@@ -51,20 +51,20 @@ const Navbar = () => {
               onClick={() => setToggleMenu(false)}
             />
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__opensans">
-                <a href="#home">Home</a>
-              </li>
-              <li className="p__opensans">
+              <li>
                 <a href="#about">About</a>
               </li>
-              <li className="p__opensans">
-                <a href="#menu">Menu</a>
+              <li>
+                <a href="#clients">Clients</a>
               </li>
-              <li className="p__opensans">
-                <a href="#awards">Awards</a>
+              <li>
+                <a href="#features">Features</a>
               </li>
-              <li className="p__opensans">
-                <a href="#contacts">Contacts</a>
+              <li>
+                <a href="#insights">Insights</a>
+              </li>
+              <li>
+                <a href="#security">Security</a>
               </li>
             </ul>
           </div>

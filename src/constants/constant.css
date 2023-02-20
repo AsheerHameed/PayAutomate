@@ -21,31 +21,32 @@
   font-size: 1.6rem;
   line-height: 3.2rem;
   color: var(--text-color);
-}
-.head{
-    text-align: center;
-    padding: 4rem 2rem;
+  padding-bottom: 5rem;
 }
 
 @media screen and (max-width: 1050px) {
-.head{
-        padding: 4rem 0;
-    }
-    .head__heading h2 {
-        font-size: 3rem;
-        line-height: 4.2rem;
-    }
-    .head__p p {
-        font-size: 1.4rem;
-        line-height: 2rem;
-    }
+.constant__subheading p {
+  font-size: 1.8rem;
+}
+.constant__heading h2 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #313131;
+  padding-bottom:1rem;
+}
 }
 @media screen and (max-width: 481px) {
-    .head{
-        padding: 2rem 0;
-    }
-    .head__heading h2 {
-        font-size: 2.4rem;
-        line-height: 3.2rem;
-    }
+.constant__heading h2 {
+  font-size: 2rem;
+  line-height: 3.4rem;
+  color: #313131;
+  padding-bottom:1rem;
+}
+.constant__p p {
+  font-family: var(--p-font);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--text-color);
+}
 }
