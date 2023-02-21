@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PayAutomate/static/css/main.20d0537e.css",
+    "main.css": "/PayAutomate/static/css/main.1fa1bab5.css",
     "main.js": "/PayAutomate/static/js/main.e6e364e3.js",
     "static/media/DealImage.png": "/PayAutomate/static/media/DealImage.0c112ecebaaefd2a7f7b.png",
     "static/media/servicesPeople.png": "/PayAutomate/static/media/servicesPeople.4795cfa226f1c99b809e.png",
@@ -18,11 +18,11 @@
     "static/media/card1.png": "/PayAutomate/static/media/card1.e974107005b189bc7724.png",
     "static/media/side.png": "/PayAutomate/static/media/side.09759caa797d1cecbb31.png",
     "index.html": "/PayAutomate/index.html",
-    "main.20d0537e.css.map": "/PayAutomate/static/css/main.20d0537e.css.map",
+    "main.1fa1bab5.css.map": "/PayAutomate/static/css/main.1fa1bab5.css.map",
     "main.e6e364e3.js.map": "/PayAutomate/static/js/main.e6e364e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.20d0537e.css",
+    "static/css/main.1fa1bab5.css",
     "static/js/main.e6e364e3.js"
   ]
 }
